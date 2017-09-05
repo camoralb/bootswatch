@@ -4332,6 +4332,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 21px;
 }
+.navbar-nav > li > form > button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 21px;
+}
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -4364,6 +4369,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
+    padding-top: 19.5px;
+    padding-bottom: 19.5px;
+  }
+  .navbar-nav > li > form > button {
     padding-top: 19.5px;
     padding-bottom: 19.5px;
   }
